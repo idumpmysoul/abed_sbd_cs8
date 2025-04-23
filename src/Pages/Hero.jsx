@@ -4,9 +4,8 @@ import NavigationBar from "../components/NavigationBar";
 const Hero = () => {
   return (
     <div>
-      <NavigationBar></NavigationBar>
-      <div className="relative bg-[#0078d4] text-white">
-        <div className="container mx-auto px-4 py-20">
+      <div className="bg-[#0078d4] text-white m-auto">
+        <div className="container mx-auto px-4 py-20 text-left">
           <div className="max-w-xl">
             <h1 className="text-4xl font-bold mb-4">Microsoft 365</h1>
             <p className="text-xl mb-6">
