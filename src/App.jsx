@@ -7,9 +7,9 @@ function App() {
 
   return (
     <>
-      <div className='container 2xl:max-w-screen m-auto'>
-        <div className='w-[1920px] h-[1080px] bg-white'>
-          xx
+      <div className='w-[1280px] h-[1080px] justify-start m-auto bg-white'>
+        <div>
+            
         </div>
       </div>
     </>
