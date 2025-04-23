@@ -1,19 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import Navbar from './components/NavigationBar';
+import Hero from './Pages/Hero';
+import ProductGrid from './Pages/ProductGrid';
+import Footer from './components/Footer';
+import './App.css';
 
 function App() {
-
   return (
-    <>
-      <div className='w-[1280px] h-[1080px] justify-start m-auto bg-white'>
-        <div>
-            
-        </div>
-      </div>
-    </>
-  )
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      <main className="flex-grow">
+        <Hero />
+        <ProductGrid />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
